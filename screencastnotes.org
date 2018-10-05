@@ -1,0 +1,6 @@
+* 
+      ("t" "To Do Item" entry (file+headline "~/orgfiles/i.org" "To Do Items")
+           "* %?\n%T" :prepend t)
+          ("j" "Journal" entry (file+datetree "~/journal.org")
+           "* %?\nEntered on %U\n  %i\n  %a")
+          ("s" "Screencast" entry (file "~/orgfiles/screencastnotes.org")
